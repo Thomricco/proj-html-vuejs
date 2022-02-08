@@ -1,28 +1,63 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-nav :nav="nav"/>
+    <footer-box />
+   
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import HeaderNav from './components/HeaderNav.vue'
+import FooterBox from './components/FooterBox.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HeaderNav,
+    FooterBox,
+   
+  },
+data () {
+  return {
+    nav: [
+      {
+        id: '6077493791',
+        label: 'HOME',
+        url: '/'
+      },
+      {
+        id: '9815795645',
+        label: 'ABOUT',
+        url: '/'
+      },
+      {
+        id: '1914470843',
+        label: 'SERVICE',
+        url: '/'
+      },
+      {
+        id: '6148128000',
+        label: 'WORK',
+        url: '/'
+      },
+      {
+        id: '0371010656',
+        label: 'ARTICLES',
+        url: '/'
+      },
+      
+    ],
+    
+    
+  };
+},
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './style/main.scss';
+
 </style>
