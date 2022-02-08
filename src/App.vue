@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <header-nav :nav="nav"/>
+    <jumbotron-box />
     <footer-box />
    
   </div>
@@ -9,6 +10,7 @@
 <script>
 
 import HeaderNav from './components/HeaderNav.vue'
+import JumbotronBox from './components/JumbotronBox.vue'
 import FooterBox from './components/FooterBox.vue'
 
 
@@ -16,7 +18,9 @@ export default {
   name: 'App',
   components: {
     HeaderNav,
+    JumbotronBox,
     FooterBox,
+
    
   },
 data () {

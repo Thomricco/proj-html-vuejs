@@ -34,19 +34,18 @@ export default {
 @import '../style/variabileColors.scss';
 
 header {
-    height: 70px;
+    height: 80px;
     background-color: $color-white;
     .container {
         width: 1200px;
         margin: 0 auto;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
 
         .logo {
             width: 40%;
             display: flex;
-            justify-content: center;
-            padding-right: 150px;
+            padding-left: 10px;
 
             img {
                 margin-top: 10px;
@@ -55,9 +54,10 @@ header {
         }
 
         nav {
-            width: 60px;
-            padding-right: 200px;
+            width: 60%;
             display: flex;
+            align-items: center;
+            padding-left: 240px;
 
             ul {
                 list-style: none;
@@ -68,7 +68,7 @@ header {
 
                 li {
                     font-size: 12px;
-                    padding: 10px;
+                    padding: 15px;
                     cursor: pointer;
                     &:hover {
                         color: $color-white;
@@ -84,7 +84,20 @@ header {
             }
 
             .bottone {
-                width: 70px;
+                width: 100px;
+                height: 30px;
+                text-align: center;
+                background-color: $color-bright-sun;
+                line-height:  20px;
+                padding: 5px;
+                font-size: 12px;
+                color: $color-silver-dark;
+                margin-left: 15px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: $color-dove-gray;
+                    color: $color-white;
+                }
             }
         }
     }
