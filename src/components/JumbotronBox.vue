@@ -39,6 +39,7 @@ export default {
             color: $color-bright-sun-text;
             font-size: 18px;
             height: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         .container-bottoni {
             display: flex;
@@ -52,7 +53,7 @@ export default {
                 width: 220px;
                 height: 40px;
                 text-align: center;
-                background-color: $color-silver-dark;
+                background-color: $color-tuatara;
                 line-height:  30px;
                 padding: 5px;
                 font-size: 15px;
