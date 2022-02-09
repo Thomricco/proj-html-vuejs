@@ -9,6 +9,8 @@
     <main-value />
     <home-owner />
     <main-news />
+    <main-partners />
+    <jumbo-footer />
     <footer-box />
 
    
@@ -26,6 +28,8 @@ import MainRecentWork from './components/MainRecentWork.vue'
 import MainValue from './components/MainValue.vue'
 import HomeOwner from './components/HomeOwners.vue'
 import MainNews from './components/MainNews.vue'
+import MainPartners from './components/MainPartners.vue'
+import JumboFooter from './components/JumboFooter.vue'
 import FooterBox from './components/FooterBox.vue'
 
 
@@ -43,7 +47,9 @@ export default {
     MainRecentWork,
     MainValue,
     HomeOwner,
-    MainNews
+    MainNews,
+    MainPartners,
+    JumboFooter
 
    
   },
@@ -81,22 +87,22 @@ data () {
     icon: [
       {
         id: '1',
-        icon: '<i class="fa-regular fa-building"></i>',
+        icon: 'fa-building',
         text: 'Buldings'
       },
       {
         id: '2',
-        icon: '<i class="fa-regular fa-building"></i>',
+        icon: 'fa-building',
         text: 'Renovate'
       },
       {
         id: '3',
-        icon: '<i class="fa-solid fa-house"></i>',
+        icon: 'fa-house',
         text: 'Construct'
       },
       {
         id: '4',
-        icon: '<i class="fa-solid fa-truck"></i>',
+        icon: 'fa-truck',
         text: 'Exclusive'
       },
     ],

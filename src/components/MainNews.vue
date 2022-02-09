@@ -4,7 +4,7 @@
             <div class="box-text">
                 <p class="text">Latest News</p>
                 <div class="border"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae blanditiis provident, qui placeat culpa suscipit unde amet rerum, ipsum, tempore voluptatem! Impedi</p>
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae blanditiis provident, qui placeat culpa suscipit unde amet rerum, ipsum, tempore voluptatem! Impedi</p>
             </div>
             <div class="box-img">
                 <div class="box-text-card">
@@ -60,6 +60,7 @@ export default {
             flex-direction: column;
             align-items: center;
             padding-top: 20px;
+            text-align: center;
         }
         .border {
             width: 150px;
@@ -84,10 +85,13 @@ export default {
             width: 250px;
             height: 450px;
             
+            
             .box-text-card {
                 width: 250px;
                 height: 450px;
                 margin: 10px;
+                background-color: $color-white;
+                
 
                 .data {
                     font-size: 7px;
@@ -96,7 +100,7 @@ export default {
                 img{
                     width: 250px;
                     height: 200px;
-                    margin: 10px;
+                    
                 }
             }
         }

@@ -2,7 +2,7 @@
     <div class="container-box">
         <div class="container">
             <div v-for="icon in icon" :key="icon.id" class="box-img">
-                <div class="box-font"><i class="fa-regular fa-building"></i></div>
+                <div class="box-font"><i class="far fa-building"></i></div>
                 <p class="text">{{icon.text}}</p>
                 <p>Adipisci repellendus vel sequi quas aliquid labore sit, laboriosam </p>
             </div>
@@ -50,6 +50,8 @@ export default {
                 border: 1px black solid;
                 border-radius: 50px;
                 margin: 0 auto;
+                line-height: 50px;
+                font-size: 20px;
                 
             }
             .text {

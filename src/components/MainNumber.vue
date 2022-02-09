@@ -2,22 +2,22 @@
     <div class="container">
         <div class="box">
             <div class="box-img">
-                <i></i>
+                <i class="fas fa-suitcase"></i>
                 <div class="number">3534</div>
                 <p class="text">PLANNING APPLICATIONS</p>
             </div>
             <div class="box-img">
-                <i></i>
+                <i class="far fa-building"></i>
                 <div class="number">896</div>
                 <p class="text">COMPLETED PROJECT</p>
             </div>
             <div class="box-img">
-                <i></i>
+                <i class="fas fa-users"></i>
                 <div class="number">272</div>
                 <p class="text">TRAINED PROFESSIONALS</p>
             </div>
             <div class="box-img">
-                <i></i>
+                <i class="fas fa-globe"></i>
                 <div class="number">29</div>
                 <p class="text">INTERNATIONAL OFFICE</p>
             </div>                                   
@@ -49,7 +49,13 @@ export default {
 
         .box-img {
             margin-left: 40px;
+            margin-right: 40px;
             text-align: center;
+
+            i {
+                font-size: 50px;
+                color: $color-bright-sun-text;
+            }
 
             .number {
                 font-size: 40px;

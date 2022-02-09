@@ -8,25 +8,25 @@
             </div>
             <div class="box-img">
                 <div class="icon">
-                    <div class="box-font green"></div>
+                    <div class="box-font green"><i class="fas fa-home"></i></div>
                     <p class="text-mini">Great Services</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
                 <div class="icon">
-                    <div class="box-font blue"></div>
+                    <div class="box-font blue"><i class="fas fa-cog"></i></div>
                     <p class="text-mini">Highest Standerds</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
                 <div class="icon">
-                    <div class="box-font orange"></div>
+                    <div class="box-font orange"><i class="fas fa-users"></i></div>
                     <p class="text-mini">Professional team</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
                 <div class="icon">
-                    <div class="box-font yellow"></div>
+                    <div class="box-font yellow"><i class="far fa-lightbulb"></i></div>
                     <p class="text-mini">Creative Solutions</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
@@ -94,6 +94,13 @@ export default {
                     border-radius: 50px;
                     margin: 0 auto;
                     
+                    
+                    i {
+                        font-size: 40px;
+                        color: $color-white;
+                        line-height: 65px;
+                    }
+                    
                 }
                 .box-font.green {
                     background-color: cadetblue;
@@ -102,13 +109,13 @@ export default {
                     }
                 }
                 .box-font.blue {
-                    background-color: cornflowerblue;
+                    background-color: #045287;
                     &:hover {
                         background-color: $color-bright-sun;
                     }
                 }
                 .box-font.orange {
-                    background-color: orangered;
+                    background-color: #fe6f1d;
                     &:hover {
                         background-color: $color-bright-sun;
                     }
@@ -121,9 +128,9 @@ export default {
                 }
                 .text-mini {
                     font-size: 12px;
-                    &:hover {
-                        color: $color-bright-sun;
-                    }
+                    //&:hover {
+                       // color: $color-bright-sun;
+                    //}
                 }
                 .bord {
                     margin: 0 auto;

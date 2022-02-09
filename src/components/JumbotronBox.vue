@@ -77,7 +77,7 @@ export default {
                 margin-left: 15px;
                 &:hover {
                     cursor: pointer;
-                    background-color: $color-silver-dark;
+                    background-color: $color-tuatara;
                     color: $color-white;
                 }
             }                      
