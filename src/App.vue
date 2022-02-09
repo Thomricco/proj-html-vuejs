@@ -11,7 +11,7 @@
     <main-news />
     <main-partners />
     <jumbo-footer />
-    <footer-box />
+    <footer-box :info="info" />
 
    
   </div>
@@ -106,6 +106,36 @@ data () {
         text: 'Exclusive'
       },
     ],
+
+    info: [
+        
+        {
+          id: '0371010656',
+          location: 'Comporate Location',
+          via: '1600 Amphitheatre Parkway',
+          city: 'Londo WC1 1BA'
+        },
+        {
+          id: '3098109658',
+          location: 'Residential Location',
+          via: '9521 Broadsberry Avenue',
+          city: 'Paddington RC7 gZA'
+        },
+        {
+          id: '3098109448',
+          location: 'info@your-domain.com',
+        },
+        {
+          id: '3098339448',
+          location: 'Monday - Friday: 9:00 AM - 6:00 PM',
+        },
+        {
+          id: '3338339448',
+          location: 'Sunday - Sunday: 9:00 AM - 12:00 PM',
+        },
+       
+        
+      ],
     
     
   };
