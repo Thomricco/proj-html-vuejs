@@ -39,7 +39,7 @@ export default {
         .box-img {
             width: 250px;
             height: 250px;
-            background-color: $color-papmps;
+            background-color: $color-silver;
             margin-left: 30px;
             border-radius: 20px;
             padding: 30px;

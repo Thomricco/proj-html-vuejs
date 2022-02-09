@@ -79,7 +79,7 @@ header {
 
                 a {
                     text-decoration: none;
-                    color: $color-silver;
+                    color: $color-silver-dark;
                 }
             }
 

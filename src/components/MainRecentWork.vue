@@ -31,9 +31,10 @@ export default {
 @import '../style/variabileColors.scss';
 .container {
     margin: 0 auto;
+    background-color: $color-white;
     .box {
         width: 1200px;
-        height: 300px;
+        
         margin: 0 auto;
         .box-text {
             margin: 0 auto;
@@ -84,7 +85,7 @@ export default {
                 margin-right: 205px;
             }
             p {
-                color: $color-silver;
+                color: $color-silver-dark;
                 width: 200px;
 
             }

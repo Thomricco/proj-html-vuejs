@@ -7,6 +7,8 @@
     <main-number />
     <main-recent-work />
     <main-value />
+    <home-owner />
+    <main-news />
     <footer-box />
 
    
@@ -22,6 +24,8 @@ import MainBox from './components/MainBox.vue'
 import MainNumber from './components/MainNumber.vue'
 import MainRecentWork from './components/MainRecentWork.vue'
 import MainValue from './components/MainValue.vue'
+import HomeOwner from './components/HomeOwners.vue'
+import MainNews from './components/MainNews.vue'
 import FooterBox from './components/FooterBox.vue'
 
 
@@ -38,6 +42,8 @@ export default {
     MainNumber,
     MainRecentWork,
     MainValue,
+    HomeOwner,
+    MainNews
 
    
   },

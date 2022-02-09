@@ -8,28 +8,28 @@
             </div>
             <div class="box-img">
                 <div class="icon">
-                    <div class="box-font"></div>
-                    <p class="text"></p>
-                    <br>
-                    <p class="text"></p>
+                    <div class="box-font green"></div>
+                    <p class="text-mini">Great Services</p>
+                    <div class="bord"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
                 <div class="icon">
-                    <div class="box-font"></div>
-                    <p class="text"></p>
-                    <br>
-                    <p class="text"></p>
+                    <div class="box-font blue"></div>
+                    <p class="text-mini">Highest Standerds</p>
+                    <div class="bord"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
                 <div class="icon">
-                    <div class="box-font"></div>
-                    <p class="text-mini">Lorem ipsum dolor sit amet </p>
-                    <br>
-                    <p class="text"></p>
+                    <div class="box-font orange"></div>
+                    <p class="text-mini">Professional team</p>
+                    <div class="bord"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
                 <div class="icon">
-                    <div class="box-font"></div>
-                    <p class="text"></p>
-                    <br>
-                    <p class="text"></p>
+                    <div class="box-font yellow"></div>
+                    <p class="text-mini">Creative Solutions</p>
+                    <div class="bord"></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolor quis earum </p>
                 </div>
             </div>
             
@@ -48,9 +48,9 @@ export default {
 @import '../style/variabileColors.scss';
 .container {
     margin: 0 auto;
+    background-color: $color-silver;
     .box {
         width: 1200px;
-        height: 300px;
         margin: 0 auto;
         .box-text {
             margin: 0 auto;
@@ -67,13 +67,13 @@ export default {
             margin-bottom: 20px;
         }
         .text {
-            color: $color-silver-dark;
+            color: $color-dove-gray;
             font-size: 30px;
         }
         p {
             font-size: 12px;
             text-align: center;
-            color: $color-silver-dark;
+            color: $color-dove-gray;
             margin-top: 10px;
         }
         .box-img {
@@ -85,21 +85,52 @@ export default {
             .icon {
             width: 250px;
             height: 250px;
-            margin-left: 30px;
             border-radius: 20px;
             padding: 30px;
 
                 .box-font {
-                    height: 100px;
-                    width: 100px;
-                    border: 1px black solid;
+                    height: 70px;
+                    width: 70px;
                     border-radius: 50px;
                     margin: 0 auto;
                     
                 }
-                .text {
-                    padding: 15px;
-                    font-size: 25px;
+                .box-font.green {
+                    background-color: cadetblue;
+                    &:hover {
+                        background-color: $color-bright-sun;
+                    }
+                }
+                .box-font.blue {
+                    background-color: cornflowerblue;
+                    &:hover {
+                        background-color: $color-bright-sun;
+                    }
+                }
+                .box-font.orange {
+                    background-color: orangered;
+                    &:hover {
+                        background-color: $color-bright-sun;
+                    }
+                }
+                .box-font.yellow {
+                    background-color: yellowgreen;
+                    &:hover {
+                        background-color: $color-bright-sun;
+                    }
+                }
+                .text-mini {
+                    font-size: 12px;
+                    &:hover {
+                        color: $color-bright-sun;
+                    }
+                }
+                .bord {
+                    margin: 0 auto;
+                    width: 20px;
+                    border: 1px $color-dove-gray solid;
+                    color: $color-dove-gray;
+                    margin-top: 10px;
                 }
             }
 

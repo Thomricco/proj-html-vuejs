@@ -39,7 +39,7 @@ export default {
     background: url(../assets/home-244125289.jpg) no-repeat;
     background-size: cover;
     .box {
-        margin: auto 0;
+        margin: 0 auto;
         margin-top: 50px;
         width: 1200px;
         height: 400px;
