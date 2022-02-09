@@ -40,7 +40,6 @@ export default {
   components: {
     HeaderNav,
     JumbotronBox,
-    FooterBox,
     HeaderMain,
     MainBox,
     MainNumber,
@@ -49,7 +48,8 @@ export default {
     HomeOwner,
     MainNews,
     MainPartners,
-    JumboFooter
+    JumboFooter,
+    FooterBox,
 
    
   },
