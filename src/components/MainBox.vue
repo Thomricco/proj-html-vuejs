@@ -5,7 +5,13 @@
                 <div class="box-font"><i class="far fa-building"></i></div>
                 <p class="text">{{icon.text}}</p>
                 <p>Adipisci repellendus vel sequi quas aliquid labore sit, laboriosam </p>
+                <div class="after">
+                    <div class="text-after">ARTULLY CRAFTED</div>
+                    <p>Adipisci repellendus vel sequi quas aliquid labore sit, laboriosam </p>
+                    <div class="bottone">GET QUOTE</div>
+                </div>
             </div>
+            
             
         </div>
 
@@ -34,6 +40,9 @@ export default {
         justify-content: center;
         text-align: center;
         color: $color-dove-gray;
+       
+        
+        
         
 
         .box-img {
@@ -43,6 +52,14 @@ export default {
             margin-left: 30px;
             border-radius: 20px;
             padding: 30px;
+            position: relative;
+            &:hover {
+                .after  {
+                display: block;
+                }
+            }
+          
+            
 
             .box-font {
                 height: 50px;
@@ -58,6 +75,39 @@ export default {
                 padding: 15px;
                 font-size: 25px;
             }
+
+
+        }
+        .after {
+            width: 250px;
+            height: 250px;
+            background-color: $color-bright-sun;
+            
+            border-radius: 20px;
+            padding: 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+            .text-after {
+                font-size: 20px;
+                padding: 15px;
+            }
+            .bottone {
+                width: 100px;
+                height: 30px;
+                text-align: center;
+                background-color: $color-bright-sun-text-2;
+                line-height:  20px;
+                padding: 5px;
+                font-size: 12px;
+                color: $color-silver-dark;
+                margin-left: 50px;
+                margin-top: 10px;
+                cursor: pointer;
+               
+            }
+            
 
         }
     }

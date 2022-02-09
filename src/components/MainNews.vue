@@ -8,26 +8,69 @@
             </div>
             <div class="box-img">
                 <div class="box-text-card">
-                    <img src="../assets/blog-post-134132600-400x241.jpg" alt="">
+                    <div class="container-img">
+                        <div class="immagine"><img src="../assets/blog-post-134132600-400x241.jpg" alt=""></div>
+                        <div class="after">
+                            <div class="icon-after">
+                                <div class="box-icon"><i class="fas fa-link"></i></div>
+                                <div class="box-icon"><i class="fas fa-search"></i></div>
+                            </div>
+                            <div class="text-after">
+                                <p class="text-max">Redeveloping Florida's Remote Southern Coast<p>
+                                <p class="text-small">Architeture, Buildings, Costruction, News</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                   
                     <h3>Redeveloping Florida's Remote Southern Coast</h3>
                     <p class="data">Decembre 7th 2015</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas dignissimos a rem, suscipit neque voluptatum eveniet iure aliquam, fugiat molestiae laudantium. Aperiam, error. Inventore porro beatae accusantium non dolore.</p>
                 </div>
                 <div class="box-text-card">
-                   <img src="../assets/blog-post-92486644-400x241.jpg" alt="">
+                    <div class="container-img">
+                        <div class="immagine"><img src="../assets/blog-post-92486644-400x241.jpg" alt=""></div>
+                        <div class="after">
+                            <div class="icon-after">
+                                <div class="box-icon"><i class="fas fa-link"></i></div>
+                                <div class="box-icon"><i class="fas fa-search"></i></div>
+                            </div>
+                            <div class="text-after">
+                                <p class="text-max">Redeveloping Florida's Remote Southern Coast<p>
+                                <p class="text-small">Architeture, Buildings, Costruction, News</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                   
                     <h3>Redeveloping Florida's Remote Southern Coast</h3>
                     <p class="data">Decembre 7th 2015</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas dignissimos a rem, suscipit neque voluptatum eveniet iure aliquam, fugiat molestiae laudantium. Aperiam, error. Inventore porro beatae accusantium non dolore.</p>
                 </div>
                 <div class="box-text-card">
-                    <img src="../assets/blog-post-332773904-400x241.jpg" alt="">
+                    <div class="container-img">
+                        <div class="immagine"><img src="../assets/blog-post-332773904-400x241.jpg" alt=""></div>
+                        <div class="after">
+                            <div class="icon-after">
+                                <div class="box-icon"><i class="fas fa-link"></i></div>
+                                <div class="box-icon"><i class="fas fa-search"></i></div>
+                            </div>
+                            <div class="text-after">
+                                <p class="text-max">Redeveloping Florida's Remote Southern Coast<p>
+                                <p class="text-small">Architeture, Buildings, Costruction, News</p>
+                            </div>
+                        
+                        </div>
+                    </div>
+                   
                     <h3>Redeveloping Florida's Remote Southern Coast</h3>
                     <p class="data">Decembre 7th 2015</p>
                     <div class="bord"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptas dignissimos a rem, suscipit neque voluptatum eveniet iure aliquam, fugiat molestiae laudantium. Aperiam, error. Inventore porro beatae accusantium non dolore.</p>
                 </div>
+                
             </div>
             <div class="view">
                 <div class="bordo"></div>
@@ -82,8 +125,7 @@ export default {
             justify-content: center;
             margin: 0 auto;
             margin-top: 20px;
-            width: 250px;
-            height: 450px;
+            
             
             
             .box-text-card {
@@ -97,9 +139,69 @@ export default {
                     font-size: 7px;
                 }
 
-                img{
+                
+            }
+            .container-img {
+                position: relative;
+                &:hover {
+                    .immagine {
+                        display: none;
+                    }
+                }
+                .immagine {
                     width: 250px;
                     height: 200px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    
+                    
+                    img{
+                        width: 250px;
+                        height: 200px;
+                        
+                    }
+                }
+                .after {
+                    padding: 20px;
+                    background-color: $color-bright-sun;
+                    width: 250px;
+                    height: 200px;
+                    
+                    
+                    .icon-after {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        .box-icon {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50px;
+                            text-align: center;
+                            line-height: 50px;
+                            background-color: $color-white;
+                            margin: 7px;
+                            i {
+                                font-size: 20px;
+                                color: $color-bright-sun;
+                            }
+
+                        }
+                    }
+                    .text-after {
+                        text-align: center;
+                        color: $color-white;
+                        padding: 10px;
+                        .text-max {
+                            font-size: 15px;
+                        }
+                        .text-small {
+                            margin-top: 10px;
+                            font-size: 10px;
+                        }
+                    }
                     
                 }
             }
