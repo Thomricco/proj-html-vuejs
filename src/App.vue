@@ -87,21 +87,25 @@ data () {
     icon: [
       {
         id: '1',
+        i: 'far',
         icon: 'fa-building',
         text: 'Buldings'
       },
       {
         id: '2',
-        icon: 'fa-building',
+        i: 'fas',
+        icon: 'fa-sync',
         text: 'Renovate'
       },
       {
         id: '3',
-        icon: 'fa-house',
+        i: 'fas',
+        icon: 'fa-home',
         text: 'Construct'
       },
       {
         id: '4',
+        i: 'fas',
         icon: 'fa-truck',
         text: 'Exclusive'
       },
@@ -113,25 +117,44 @@ data () {
           id: '0371010656',
           location: 'Comporate Location',
           via: '1600 Amphitheatre Parkway',
-          city: 'Londo WC1 1BA'
+          city: 'Londo WC1 1BA',
+          i: 'fas',
+          icon: 'fa-globe',
+
         },
         {
           id: '3098109658',
           location: 'Residential Location',
           via: '9521 Broadsberry Avenue',
-          city: 'Paddington RC7 gZA'
+          city: 'Paddington RC7 gZA',
+          i: 'fas',
+          icon: 'fa-home',
+        },
+        {
+          id: '3098109658',
+          location: '1.800.458.556 / 1.800.532.2112',
+          i: 'fas',
+          icon: 'fa-phone',
+
         },
         {
           id: '3098109448',
           location: 'info@your-domain.com',
+          i: 'far',
+          icon: 'fa-envelope',
+      
         },
         {
           id: '3098339448',
           location: 'Monday - Friday: 9:00 AM - 6:00 PM',
+          i: 'fas',
+          icon: 'fa-clock',
         },
         {
           id: '3338339448',
           location: 'Sunday - Sunday: 9:00 AM - 12:00 PM',
+          i: 'fas',
+          icon: 'fa-clock',
         },
        
         

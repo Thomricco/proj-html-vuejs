@@ -33,7 +33,7 @@
             <div class="box-3">
                 <h5>CONTACT US TODAY</h5>
                 <div v-for="info in info" :key="info.id" class="container-dinamic">
-                    <div class="dinamic-left"><i class="fas fa-globe"></i></div>
+                    <div class="dinamic-left"><i :class="`${info.i} ${info.icon} `"></i></div>
                     <div class="dinamic-right">
                         <ul>
                             <li>{{info.location}}</li>

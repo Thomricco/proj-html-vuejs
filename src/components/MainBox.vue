@@ -2,7 +2,7 @@
     <div class="container-box">
         <div class="container">
             <div v-for="icon in icon" :key="icon.id" class="box-img">
-                <div class="box-font"><i class="far fa-building"></i></div>
+                <div class="box-font"><i :class="`${icon.i} ${icon.icon}`"></i></div>
                 <p class="text">{{icon.text}}</p>
                 <p>Adipisci repellendus vel sequi quas aliquid labore sit, laboriosam </p>
                 <div class="after">
